@@ -2,9 +2,7 @@
 title: 'XD WEB-KIT'
 subtitle: 'Publish your Adobe XD design systems packages to the Web--Publish, Share and Collaborate'
 date: 2021-06-08
-
-# coverImage: ['placeholder.png']
-
+coverImage: ['placeholder.png']
 ---
 
 ![{{ title }}]({{ hlp.sharp.img(['placeholder.png']) }})
