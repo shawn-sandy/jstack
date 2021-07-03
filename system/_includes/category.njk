@@ -5,6 +5,9 @@
     <h3 class="title-font  quote">
       {{ subtitle or settings.subtitle }}
     </h3>
+    <blockquote class="title-font">
+      {{ subtitle or settings.description }}
+    </blockquote>
   {% endblock %}
   {% block content %}
     <main style="padding-top: calc(100rem / 16)">
