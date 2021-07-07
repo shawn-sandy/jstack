@@ -6,3 +6,9 @@ nav {
     max-height: calc(90 / 16 * 1rem);
   }
 }
+
+header {
+  > section {
+    padding: 0 2rem;
+  }
+}

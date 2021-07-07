@@ -8,7 +8,7 @@ reverse -%}
     <section style="margin: 3rem auto"> <div role="list">
       {%- for item in feature %}
         <div role="listitem">
-          {% if item.data.coverImage %}
+          {% if item.data.image %}
             <picture>
               <img loading="lazy" src="{{ hlp.sharp.coverImage(item.data.coverImage) }}" alt="{{ item.data.title | slug }}" width="500" height="300"/>
             </picture>
@@ -47,9 +47,9 @@ reverse -%}
       <ul role="list">
         {%- for item in feature %}
           <li role="listitem">
-            {% if item.data.coverimage %}
+            {% if item.data.image %}
               <picture>
-                <img loading="lazy" src="{{ item.data.coverImage }}" alt="item.data.title | slug"/>
+                <img loading="lazy" src="{{ item.data.image }}" alt="item.data.title | slug"/>
               </picture>
             {% endif %}
             <h3>
@@ -76,9 +76,9 @@ tag - tag, limit - number of items #}
         {%- for item in feature %}
           <li role="listitem">
             <a href="" title="{{ item.data.title | slug }}">
-              {% if item.data.coverImage %}
+              {% if item.data.image %}
                 <picture>
-                  <img loading="lazy" src="{{ item.data.coverImage }}" alt="Image" width="500" height="300"/>
+                  <img loading="lazy" src="{{ item.data.image }}" alt="Image" width="500" height="300"/>
                 </picture>
               {% else %}
                 <h3>
