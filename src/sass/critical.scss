@@ -1,14 +1,11 @@
 @use '@shawnsandy/first-paint/src/styles/critical.scss';
-// @use 'theme/shawnsandy/shawn-sandy.scss';
+@use 'theme/custom/index.scss';
 
 body > section,
 body > main,
 body > header > section,
 body > footer > section,
 nav {
-  h1 img {
-    max-height: calc(90 / 16 * 1rem);
-  }
   @media (min-width: 980px) {
     width: 85% !important;
     max-width: calc(1500rem / 16) !important;
