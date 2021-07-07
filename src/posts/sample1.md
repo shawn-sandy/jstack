@@ -1,12 +1,12 @@
 ---
-title: 'Tip: Simple, dynamic 11ty class-names'
-subtitle: ''
-date: 2021-06-08
-tags: ['posts', 'tips', '11ty']
+title: Cleaner, useful commits messages for teams with commitizen
+subtitle: Commitizen is an open-source project created to help developers  write better commit messages by making the process simple!
+tags: ['posts', 'tips', 'Win10']
 coverImage: ['placeholder.png']
+date: 2021-06-02
 ---
 
-!['11ty classnames screenshots']({{ hlp.sharp.img(['placeholder.png'], {suffix: '-main', force: true })}})
+![alt]({{ hlp.sharp.img(['placeholder.png'], {'format': 'webp'}) }})
 
 Professionally procrastinate front-end functionalities for backend process improvements. Phosfluorescently morph backend testing procedures for viral alignments. Continually exploit value-added platforms without e-business intellectual capital. Quickly simplify excellent sources for principle-centered infrastructures. Objectively repurpose enterprise networks rather than functional relationships.
 

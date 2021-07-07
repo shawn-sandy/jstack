@@ -1,12 +1,12 @@
 ---
-title: 'AccessLint: quickly add dynamic accessibility testing to your development workflow'
-subtitle: 'Accessibility warnings for dynamic web content.'
-date: 2021-06-07
+title: "Performance metrics; lighthouse scores and fixes"
+subtitle: "Using the web.dev/measure, allows you to see how well your website performs and gives you tips on how to improve your user experience"
+date: 2021-06-15
+tags: ['posts', 'performance']
 coverImage: ['placeholder.png']
-tags: ['posts', 'tools', accessibility']
 ---
 
-!['Accesslint github site']({{ hlp.sharp.img(['placeholder.png'])}})
+![acknowledgement image]({{ hlp.sharp.img(['placeholder.png'], { format: 'webp' }) }})
 
 Professionally procrastinate front-end functionalities for backend process improvements. Phosfluorescently morph backend testing procedures for viral alignments. Continually exploit value-added platforms without e-business intellectual capital. Quickly simplify excellent sources for principle-centered infrastructures. Objectively repurpose enterprise networks rather than functional relationships.
 
