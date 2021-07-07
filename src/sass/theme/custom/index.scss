@@ -1,0 +1,14 @@
+/**
+Custom theme
+**/
+nav {
+  h1 img {
+    max-height: calc(90 / 16 * 1rem);
+  }
+}
+
+header {
+  > section {
+    padding: 0 2rem;
+  }
+}
