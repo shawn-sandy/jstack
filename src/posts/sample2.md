@@ -1,12 +1,12 @@
 ---
-title: 'Tip: Simple, dynamic 11ty class-names'
-subtitle: ''
-date: 2021-06-08
-tags: ['posts', 'tips', '11ty']
-coverImage: ['placeholder.png']
+title: "Performance metrics; lighthouse scores and fixes"
+subtitle: "Using the web.dev/measure, allows you to see how well your website performs and gives you tips on how to improve your user experience"
+date: 2021-06-15
+tags: ['posts', 'performance']
+image: ['placeholder.png']
 ---
 
-!['11ty classnames screenshots']({{ hlp.sharp.img(['placeholder.png'], {suffix: '-main', force: true })}})
+![acknowledgement image]({{ hlp.sharp.img(['placeholder.png'], { format: 'webp' }) }})
 
 Professionally procrastinate front-end functionalities for backend process improvements. Phosfluorescently morph backend testing procedures for viral alignments. Continually exploit value-added platforms without e-business intellectual capital. Quickly simplify excellent sources for principle-centered infrastructures. Objectively repurpose enterprise networks rather than functional relationships.
 

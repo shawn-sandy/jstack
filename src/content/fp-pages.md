@@ -2,7 +2,7 @@
 title: FP pages
 subtitle: 'Lightweight, Fast, Accessible, Inclusive; A minimalist UI Toolkit for building responsive, performance driven, accessibility first websites'
 date: 2021-06-08
-coverImage: ['placeholder.png']
+image: ['placeholder.png']
 ---
 
 ![{{ title }}]({{ hlp.sharp.img(['placeholder.png']) }})

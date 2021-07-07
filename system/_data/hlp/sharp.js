@@ -83,7 +83,7 @@ const imgSrc = (imgs = 'google-security-check.jpg', options = {}) => {
  * @param {*} imgs
  * @returns
  */
-const coverImage = (imgs = ['og-cover.png']) => {
+const coverImage = (imgs = ['placeholder.png']) => {
   const cover = img(imgs, { width: 800, height: 500, format: 'jpg' })
   return cover
 }

@@ -1,12 +1,12 @@
 ---
-title: 'AccessLint: quickly add dynamic accessibility testing to your development workflow'
-subtitle: 'Accessibility warnings for dynamic web content.'
-date: 2021-06-07
-coverImage: ['placeholder.png']
-tags: ['posts', 'tools', accessibility']
+title: Cleaner, useful commits messages for teams with commitizen
+subtitle: Commitizen is an open-source project created to help developers  write better commit messages by making the process simple!
+tags: ['posts', 'tips', 'Win10']
+image: ['placeholder.png']
+date: 2021-06-02
 ---
 
-!['Accesslint github site']({{ hlp.sharp.img(['placeholder.png'])}})
+![alt]({{ hlp.sharp.img(['placeholder.png'], {'format': 'webp'}) }})
 
 Professionally procrastinate front-end functionalities for backend process improvements. Phosfluorescently morph backend testing procedures for viral alignments. Continually exploit value-added platforms without e-business intellectual capital. Quickly simplify excellent sources for principle-centered infrastructures. Objectively repurpose enterprise networks rather than functional relationships.
 
