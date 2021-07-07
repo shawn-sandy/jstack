@@ -1,4 +1,4 @@
-{% set image = hlp.sharp.coverImage(coverImage) or 'og-cover.png' %} <meta property="og:title" content="{{ title or settings.title }}"/>
+{% set image = hlp.sharp.coverImage(coverImage) or 'placeholder.png' %} <meta property="og:title" content="{{ title or settings.title }}"/>
 <meta property="og:description" content="{{ subtitle or settings.description }}"/>
 <meta property="og:type" content="{{ type or 'website' }}"/>
 <meta property="og:url" content="{{ env.url or settings.url }}{{ page.url }}"/>
