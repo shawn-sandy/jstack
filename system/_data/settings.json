@@ -15,7 +15,13 @@
     "email": "name@mail.dev",
     "twitter": "@shawnsandy"
   },
-  "styles": [],
+  "styles": [
+    "http://script1.com/1.css",
+    "//script2.css/2.css"
+  ],
+  "scripts": [
+    "./js/min/index.min.js"
+  ],
   "scripts": [
     "./js/min/index.min.js"
   ]
