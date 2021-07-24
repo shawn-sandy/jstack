@@ -1,6 +1,6 @@
 ---
-title: 'XD WEB-KIT'
-subtitle: 'Publish your Adobe XD design systems packages to the Web--Publish, Share and Collaborate'
+title: 'Sample Feature'
+subtitle: 'Competently harness bricks-and-clicks markets via pandemic technology. Objectively formulate.'
 date: 2021-06-08
 coverImage: ['placeholder.png']
 ---
