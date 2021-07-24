@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "Install and Setup",
+  "title": "#1 Install and Setup",
   "steps": [
     {
       "file": "package.json",

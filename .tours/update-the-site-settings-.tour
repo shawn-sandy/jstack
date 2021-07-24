@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "Update the site settings ",
+  "title": "#2 Update the site settings ",
   "steps": [
     {
       "file": "system/_data/settings.json",

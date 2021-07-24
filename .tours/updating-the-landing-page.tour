@@ -1,6 +1,6 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "Updating the landing page",
+  "title": "#3 Updating the landing page",
   "steps": [
     {
       "file": "src/index.html",
