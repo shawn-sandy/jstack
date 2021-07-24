@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Install and Setup",
+  "steps": [
+    {
+      "file": "package.json",
+      "description": "* To install and setup please run by clicking `npm i` or running the command in the terminal\n\n>> npm i",
+      "line": 1
+    },
+    {
+      "file": "package.json",
+      "description": "* When installation is complete run `npm start` in the terminal or click the link below\n\n>> npm start\n\nThe runs will srart the `dev server` and launch your dev site `http://localhost` in your default browser\n\n",
+      "line": 93
+    }
+  ]
+}

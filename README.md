@@ -6,7 +6,7 @@ A performance first, accessibility focussed custom theme built on FP. Pages & 11
 
 <!-- > [Eleventy](https://11ty.dev) and [FirstPaint](https://www.npmjs.com/package/@shawnsandy/first-paint) a classless CSS/SCSS library. -->
 
-### Quick Start
+## Quick Start
 
 **Deploy to Netlify**
 
@@ -20,6 +20,8 @@ A performance first, accessibility focussed custom theme built on FP. Pages & 11
 * Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder, changes will will livereload in the browser.
 
 [READ START GUIDE](/src/developers/01.md) for more info.
+
+## Install/Setup
 
 **TODO**
 

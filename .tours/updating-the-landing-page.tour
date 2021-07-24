@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Updating the landing page",
+  "steps": [
+    {
+      "file": "src/index.html",
+      "description": "If you followed the steps so far you should be able to view the you site's landing page in the browser. Now lets take a look ate the sites landing page and how we define the template and content ",
+      "line": 1
+    },
+    {
+      "file": "src/index.html",
+      "description": "We use FrontMatter to define the properties of a page:\n- `layout` is used to define the page template\n- `title` the title of the page\n- `category` is used to defined the content that appears in page it this case we want to display the a list of post in the page\n\nOptional/custom properties\n- `tags` are used for adding taxonomy\n- `subtitle` a subtitle of the page\n- `date` content date \n- Custom properties you can define options properties for each page\n\n",
+      "line": 6,
+      "selection": {
+        "start": {
+          "line": 6,
+          "character": 1
+        },
+        "end": {
+          "line": 7,
+          "character": 1
+        }
+      }
+    }
+  ]
+}
