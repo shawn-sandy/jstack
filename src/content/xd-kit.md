@@ -2,7 +2,7 @@
 title: 'Sample Feature'
 subtitle: 'Competently harness bricks-and-clicks markets via pandemic technology. Objectively formulate.'
 date: 2021-06-08
-coverImage: ['placeholder.png']
+image: ['placeholder.png']
 ---
 
 ![{{ title }}]({{ hlp.sharp.img(['placeholder.png']) }})

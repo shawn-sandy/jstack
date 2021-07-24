@@ -2,7 +2,7 @@
 title: Sample Feature
 subtitle: 'Quickly pontificate client-based architectures with covalent outsourcing. Synergistically engage.'
 date: 2021-06-08
-coverImage: ['placeholder.png']
+image: ['placeholder.png']
 ---
 
 ![{{ title }}]({{ hlp.sharp.img(['placeholder.png']) }})

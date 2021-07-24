@@ -2,7 +2,7 @@
 title: 'Sample Feature'
 subtitle: 'Quickly whiteboard seamless imperatives before ubiquitous metrics. Monotonectally embrace.'
 date: 2021-06-08
-coverImage: ['placeholder.png']
+image: ['placeholder.png']
 
 ---
 
