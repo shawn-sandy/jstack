@@ -1,15 +1,11 @@
 {
   "$schema": "https://aka.ms/codetour-schema",
-  "title": "Template",
+  "title": "#4 Template",
   "steps": [
     {
       "file": "system/_includes/_Layout.njk",
       "description": "# Layout template\r\n\r\nThis is the template that drives the whole site you can use it to change\r\n- Site header/footer info\r\n- Change the look and feel of the maing content\r\n- Add global scripts/styles\r\n\r\nRemember that changes to `_Layout.njk` are universal.\r\n\r\nSubstack templates/layouts are built with the [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) a Javascript templating library youo can [read the docs here](https://mozilla.github.io/nunjucks/templating.html).\r\n\r\nFor info on building templates with nunjucks and 11ty change out the [11ty template docs](https://www.11ty.dev/docs/languages/nunjucks/)\r\n\r\n",
       "line": 1
-    },
-    {
-      "title": "Extending templates",
-      "description": ""
     },
     {
       "file": "system/_includes/base.njk",

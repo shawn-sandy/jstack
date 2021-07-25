@@ -1,0 +1,16 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "#5 Content",
+  "steps": [
+    {
+      "file": "src/posts/sample1.md",
+      "description": "# Sample Content\n\nWe left some sample content to get you up and running quickly. To start lest change the title, and subtitle of the page and view in the browser and see what happens.\n\nRun `npm start` click below or run in terminal\n\n>> npm start\n\n",
+      "line": 7
+    },
+    {
+      "file": "src/posts/sample1.md",
+      "description": "# Content\n\nNow you can update the page content save and update to view your changes in the browser",
+      "line": 11
+    }
+  ]
+}
