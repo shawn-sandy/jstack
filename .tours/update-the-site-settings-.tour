@@ -24,7 +24,7 @@
     },
     {
       "file": "system/_data/settings.json",
-      "description": "# Update the author info\r\n\r\n...",
+      "description": "# Update the author info\r\n\r\nEdit options for the author info;\r\n\r\n- name\r\n- email\r\n- twitter\r\n- custom_option\r\n\r\n*While optional (won't break anything) name and email are use in several areas of the template so we suggest changing them*  ",
       "line": 13,
       "selection": {
         "start": {
