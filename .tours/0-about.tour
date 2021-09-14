@@ -1,0 +1,26 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "#0 About",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "# Substack\n\n\n> Substack is performance first, accessibility focussed custom theme built on FP-Pages a minimalist UI/Frontend Toolkit for building performance driven, accessibility first websites. Powered by modern Serverless, Javascript, API's and Markdown stack, with built in [Netlify](https://www.netlify.com/), [Cloudflare pages](https://pages.cloudflare.com/) and [Azure coming soon](https://azure.microsoft.com/) integration for easy server(less) deploys. A lightweight classless `10kb/3kb(gzip)` CSS/SCSS library for style and layout [FirstPaint](https://npmjs.org/package/@shawnsandy/first-paint) and  [Eleventy](https://11ty.dev) a simple and easy to use next-gen static site\n\n### Powered by: [Eleventy](https://11ty.dev)",
+      "line": 1,
+      "selection": {
+        "start": {
+          "line": 3,
+          "character": 1
+        },
+        "end": {
+          "line": 3,
+          "character": 84
+        }
+      }
+    },
+    {
+      "file": "README.md",
+      "description": "# Deploy to Netlify\n\n**Deploy to Netlify**\n\n* [Click here to deploy FP-Pages to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/shawn-sandy/substack) you can read more about netlify here [Netlify](https://www.netlify.com/) and make sure and check out the [Netlify docs](https://docs.netlify.com/)\n* Set the name of your repo Netlify will clone to the git repository you linked to earlier\n* Set your [ENV variables (see more)](#env-config) this can be updated later\n* Click save and deploy button and watch Netlify do its magic\n* Clone the repo Netlify to your desktop `git clone your-repo-url`\n* Open the cloned repo in terminal and install the npm packages by running `npm i`\n* Once this is completed run `npm start` this will launch a local instance of the FP-Pages in the default browser\n* Open the repo in VSCODE or your favorite IDE/editor and edit the content inside your `src` folder, changes will will livereload in the browser.",
+      "line": 9
+    }
+  ]
+}

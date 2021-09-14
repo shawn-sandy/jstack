@@ -1,0 +1,11 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "about",
+  "steps": [
+    {
+      "file": ".README.md",
+      "description": "# Substack UI Kit\r\n\r\nSubstack is a UI toolkit for building web-apps using First Paint and Eleventy\r\n\r\n> Eleventy is a simpler static site generator.\r\n> Eleventy is not a JavaScript framework—that means zero boilerplate client-side JavaScript. We’re thinking long term and opting out of the framework rat race. The tool chain, code conventions, and modules you use in your front end stack are decoupled from this tool. Work from a solid foundation of pre-rendered templates that suit your project’s progressive enhancement baseline requirements.\r\n\r\n[More on Eleventy ](https://www.11ty.dev/)\r\n\r\n",
+      "line": 1
+    }
+  ]
+}

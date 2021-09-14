@@ -1,5 +1,5 @@
 {
-  "name": "fp-pages",
+  "name": "@fppages/substack",
   "version": "0.0.1",
   "config": {
     "name": "A UI toolkit for building web-apps using First Paint and Eleventy ",
@@ -74,7 +74,7 @@
     "@babel/cli": "^7.14.5",
     "@babel/core": "^7.14.6",
     "@babel/preset-env": "^7.14.7",
-    "@shawnsandy/first-paint": "^1.1.24",
+    "@shawnsandy/first-paint": "^2.0.0",
     "babel-watch": "^7.4.1",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",

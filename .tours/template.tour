@@ -1,0 +1,41 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "#4 Template",
+  "steps": [
+    {
+      "file": "system/_includes/_Layout.njk",
+      "description": "# Layout template\r\n\r\nThis is the template that drives the whole site you can use it to change\r\n- Site header/footer info\r\n- Change the look and feel of the maing content\r\n- Add global scripts/styles\r\n\r\nRemember that changes to `_Layout.njk` are universal.\r\n\r\nSubstack templates/layouts are built with the [Nunjucks](https://mozilla.github.io/nunjucks/templating.html) a Javascript templating library youo can [read the docs here](https://mozilla.github.io/nunjucks/templating.html).\r\n\r\nFor info on building templates with nunjucks and 11ty change out the [11ty template docs](https://www.11ty.dev/docs/languages/nunjucks/)\r\n\r\n",
+      "line": 1
+    },
+    {
+      "file": "system/_includes/base.njk",
+      "description": "# Extending templates\n\nTemplate inheritance is key to customizing your sites layout, you can read [more on extending template layouts here](https://mozilla.github.io/nunjucks/templating.html#extends)",
+      "line": 1
+    },
+    {
+      "file": "system/_includes/_Layout.njk",
+      "description": "# Blocks\n\n> Blocks defines a section on the template and identifies it with a name. This is used by template inheritance. Base templates can specify blocks and child templates can override them with new content\n\nThere are several blocks on the `_Layout.njk` that can be used by a child layout to overide the layout defaults; use child layouts to create template variants learn more about [blocks in the docs](https://mozilla.github.io/nunjucks/templating.html#block)\n\n",
+      "line": 51
+    },
+    {
+      "file": "system/_includes/_Layout.njk",
+      "description": "# Includes \n\nIncludes; use includes to add partials to your `html template snippets` to your layouts [more info here](https://mozilla.github.io/nunjucks/templating.html#include)",
+      "line": 42
+    },
+    {
+      "file": "system/_includes/_Layout.njk",
+      "description": "# Imports (macros)\n\nImports are used to include macros in you templates; macro allows you to define reusable chunks of content. It is similar to a function in a programming language [more info on macros](https://mozilla.github.io/nunjucks/templating.html#macro)\n\n",
+      "line": 40
+    },
+    {
+      "file": "system/_includes/base.njk",
+      "description": "# Base templates\n\nThe extends the `_Layout` template and is used to overide the `content` block of the Layout page. More info coming soon... ",
+      "line": 1
+    },
+    {
+      "file": "system/_includes/page.njk",
+      "description": "# Page Template\n\nThis template is used for display articles, post, page etc read more on modifying template in the nunjucks docs.",
+      "line": 1
+    }
+  ]
+}

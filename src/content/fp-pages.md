@@ -1,6 +1,6 @@
 ---
-title: FP pages
-subtitle: 'Lightweight, Fast, Accessible, Inclusive; A minimalist UI Toolkit for building responsive, performance driven, accessibility first websites'
+title: Sample Feature
+subtitle: 'Quickly pontificate client-based architectures with covalent outsourcing. Synergistically engage.'
 date: 2021-06-08
 image: ['placeholder.png']
 ---
