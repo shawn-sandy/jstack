@@ -74,7 +74,7 @@
     "@babel/cli": "^7.15.7",
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
-    "@shawnsandy/first-paint": "^2.0.7",
+    "@shawnsandy/first-paint": "^2.0.9",
     "babel-watch": "^7.5.0",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
