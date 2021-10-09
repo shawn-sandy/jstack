@@ -1,6 +1,6 @@
 <nav data-mobile="data-mobile" aria-label="Main navigation">
   <section>
-    <section data-show-mobile="data-show-mobile">
+    <section data-show-mobile="data-show-mobile" style="--mobile=''">
       <a role="button" aria-label="Navigation button" href="#sidebar" data-sidebar-button="data-sidebar-button">
         <small>
           <span>
@@ -18,17 +18,17 @@
       </h1>
     </section>
   </section>
-
   <section id="sidebar">
     <ul>
       {% include "partials/nav-list.njk" %}
       <li>
-        <div data-show-mobile="data-show-mobile">
+        <div data-show-mobile="data-show-mobile" style="--mobile=''">
           <a href="#">
             <span>
               <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" width="24" height="24">
                 <path fill="none" d="M0 0h24v24H0z"/>
-                <path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414 4.95-4.95-4.95-4.95L7.05 5.636z"/>
+                <path d="M12 10.586l4.95-4.95 1.414 1.414-4.95 4.95 4.95 4.95-1.414 1.414-4.95-4.95-4.95 4.95-1.414-1.414
+                4.95-4.95-4.95-4.95L7.05 5.636z"/>
               </svg>
             </span>
           </a>
