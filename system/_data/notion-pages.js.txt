@@ -1,4 +1,4 @@
-
+// !* https://www.notion.so/ssandy/59f4d5b6-a57c-497e-86ba-9a6b4b6cf020
 const Cache = require('@11ty/eleventy-cache-assets')
 require('dotenv').config()
 const flatcache = require('flat-cache')
@@ -11,7 +11,7 @@ function getCacheKey () {
   }-${date.getUTCDate()}`
 }
 module.exports = async function () {
-  const url = 'https://api.notion.com/v1/databases/d3ac8596aa1e4bc1871ad115808cb16b/query'
+  const url = 'https://api.notion.com/v1/pages/59f4d5b6-a57c-497e-86ba-9a6b4b6cf020'
 
   const json = await Cache(url, {
     duration: '0d',
@@ -29,7 +29,7 @@ module.exports = async function () {
 
   const cache = flatcache.load('notion.json', path.resolve('./_data'))
   const key = getCacheKey()
-  // const cachedData = cache.getKey(key)
+  const cachedData = cache.getKey(key)
 
   cache.setKey(key, json)
   cache.save()
