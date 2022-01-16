@@ -15,7 +15,7 @@ module.exports = async () => {
     const response = await Cache(url, {
       duration: '0d',
       type: 'json',
-      directory: '_data/pocket'
+      directory: 'api/pocket'
     })
     // console.log(response.list)
     return {
