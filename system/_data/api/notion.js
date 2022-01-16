@@ -20,7 +20,7 @@ module.exports = async function () {
   const json = await Cache(url, {
     duration: '0d',
     type: 'json',
-    directory: '_data/notion',
+    directory: 'api/notion',
     fetchOptions: {
       method: 'POST',
       headers: {

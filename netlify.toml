@@ -8,4 +8,8 @@
   SITE_MAP_URL = "https://www.xxx.com/sitemap.xml"
   CONTACT_EMAIL = "Contact email"
   FORM_PROVIDER = "Forms provider (netlify/web3forms)"
-  CONTACT_SUCCESS = "From(s) thank you page (/thank-you)"
+  CONTACT_SUCCESS = "From(s) thank you page (/thank-you)",
+  NOTION_TOKEN = "Notion token (xxxxxx)",
+  POCKET_TOKEN = "Pocket token (xxxxxx)",
+  POCKET_ACCESS_TOKEN = "Pocket access token (xxxxxx)",
+
