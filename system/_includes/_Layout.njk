@@ -26,7 +26,7 @@
       <style>
         {{css | cssmin | safe}}</style>
       {# <link rel="stylesheet" href="/css/styles.css" media="all"/>
-                  <link rel="stylesheet" href="/css/elements.css" media="all"/> #}
+                                                                                                <link rel="stylesheet" href="/css/elements.css" media="all"/> #}
       {% for styles in settings.styles %}
         <link href="{{ styles }}" rel="stylesheet" media="all"/>
       {% endfor %}
@@ -81,6 +81,24 @@
         });
       </script>
     {% endif -%}
+    <script src="https://cdn.jsdelivr.net/npm/axe-core@4.3.5/axe.min.js"></script>
+    <script>
+      axe
+        .run()
+        .then(results => {
+          if (results.violations.length) {
+            console.error(`info ${
+              results.violations
+            } ' ' ${
+              results.violations.length
+            }`);
+            throw new Error('Accessibility issues found');
+          }
+        })
+        .catch(err => {
+          console.error('Something bad happened:', err.message);
+        });
+    </script>
     {% clipboardscript %}
   </body>
 </html>

@@ -90,6 +90,8 @@ module.exports = function (eleventyConfig) {
   // navigation
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
 
+
+
   return {
     dir: {
       input: "src",
