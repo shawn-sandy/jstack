@@ -11,7 +11,6 @@ function getCacheKey () {
   }-${date.getUTCDate()}`
 }
 module.exports = async function () {
-
   const json = await Cache('https://getpocket.com/v3/get?consumer_key=100474-e14d0e097a2869ccce09ddc&access_token=e43cb712-269d-36fe-d253-c3bbee&tag=11ty&count=10', {
     duration: '1d',
     type: 'json',
