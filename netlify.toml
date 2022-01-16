@@ -11,5 +11,5 @@
   CONTACT_SUCCESS = "From(s) thank you page (/thank-you)"
   NOTION_TOKEN = "Notion token (xxxxxx)"
   POCKET_TOKEN = "Pocket token (xxxxxx)"
-  POCKET_ACCESS_TOKEN = "Pocket access token (xxxxxx)",
+  POCKET_ACCESS_TOKEN = "Pocket access token (xxxxxx)"
 
