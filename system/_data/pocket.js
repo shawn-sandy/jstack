@@ -11,23 +11,20 @@ function getCacheKey () {
   }-${date.getUTCDate()}`
 }
 module.exports = async function () {
-  const url = 'https://api.notion.com/v1/databases/d3ac8596aa1e4bc1871ad115808cb16b/query'
 
-  const json = await Cache(url, {
-    duration: '0d',
+  const json = await Cache('https://getpocket.com/v3/get?consumer_key=100474-e14d0e097a2869ccce09ddc&access_token=e43cb712-269d-36fe-d253-c3bbee&tag=11ty&count=10', {
+    duration: '1d',
     type: 'json',
-    directory: '_data/notion',
+    directory: '_data/eleventy',
     fetchOptions: {
-      method: 'POST',
+      method: 'GET',
       headers: {
-        Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
-        'Notion-Version': '2021-05-13',
         'Content-Type': 'application/json'
       }
     }
   })
 
-  const cache = flatcache.load('notion.json', path.resolve('./_data'))
+  const cache = flatcache.load('eleventy.json', path.resolve('./_data'))
   const key = getCacheKey()
   // const cachedData = cache.getKey(key)
 
