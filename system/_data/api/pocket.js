@@ -4,18 +4,22 @@ require('dotenv').config()
 
 module.exports = async () => {
   // add a try catch to handle errors
+  if (!process.env.NOTION_TOKEN) {
+    return null
+  }
+  const token = process.env.POCKET_TOKEN
+  const accessToken = process.env.POCKET_ACCESS_TOKEN
   try {
-    const url = 'https://getpocket.com/v3/get?consumer_key=100474-e14d0e097a2869ccce09ddc&access_token=e43cb712-269d-36fe-d253-c3bbee&tag=11ty&count=10'
+    const url = `https://getpocket.com/v3/get?consumer_key=${token}&access_token=${accessToken}&tag=react&count=10`
 
     const response = await Cache(url, {
       duration: '0d',
       type: 'json',
-      directory: '_data/response/pocket'
+      directory: '_data/pocket'
     })
-
     // console.log(response.list)
     return {
-      list: response.status
+      response
     }
   } catch (error) {
     console.log(error)

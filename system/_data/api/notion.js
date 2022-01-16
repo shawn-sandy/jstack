@@ -13,6 +13,10 @@ function getCacheKey () {
 module.exports = async function () {
   const url = 'https://api.notion.com/v1/databases/d3ac8596aa1e4bc1871ad115808cb16b/query'
 
+  if (!process.env.NOTION_TOKEN) {
+    return null
+  }
+
   const json = await Cache(url, {
     duration: '0d',
     type: 'json',
@@ -26,14 +30,6 @@ module.exports = async function () {
       }
     }
   })
-
-  // const cache = flatcache.load('notion.json', path.resolve('./_data'))
-  // const key = getCacheKey()
-  // // const cachedData = cache.getKey(key)
-
-  // cache.setKey(key, json)
-  // cache.save()
-
   return {
     json
   }
